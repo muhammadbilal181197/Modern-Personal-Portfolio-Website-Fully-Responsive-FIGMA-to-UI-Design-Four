@@ -1,0 +1,745 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../font/Inter-Regular.ttf");
+}
+
+.font_primary {
+    font-family: "Poppins";
+}
+
+.font_secondary {
+    font-family: "Inter";
+}
+
+.nav_font {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+    margin: 0;
+}
+
+.border {
+    width: 72px;
+    height: 2px;
+    border: 1px solid #B00000 !important;
+}
+
+.navbar_img {
+    height: 19px;
+}
+
+.navbar_icon {
+    max-width: 20px;
+    height: 20px;
+}
+
+.li_font {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+}
+.li_light {
+    color: rgba(214, 212, 212, 0.88);
+}
+
+.premium_font {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    color: #2E2E2E;
+    margin: 0;
+}
+
+.blazing_font {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.05em;
+    color: #808080;
+    margin: 0;
+}
+
+
+.btn-primary {
+    background: #B00000 !important;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 0;
+    box-shadow: 0px 0px 64px rgba(176, 0, 0, 0.3);
+    border-radius: 8px;
+    max-width: 160px;
+height: 48px;
+}
+.btn-outline-dark {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+    max-width: 160px;
+    height: 48px;
+}
+
+.w_97 {
+    max-width: 97%;
+}
+
+.true_font,
+.serve_font {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 45px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    margin: 0;
+}
+
+.cloud_font {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 17px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+}
+
+.primary_font {
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin: 0;
+}
+
+.secondary_font {
+
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+}
+
+.ready_font {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 50px;
+    color: #000000;
+    margin: 0;
+}
+
+.ready_w {
+    max-width: 750px;
+}
+
+.choose_font,
+.monthly_font,
+.yearly_font {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 25px;
+    color: #000000;
+    margin: 0;
+}
+
+.bg-yellow {
+    width: 87px;
+    height: 24px;
+    background: #FFE87A !important;
+    border-radius: 8px;
+}
+
+.discount_font {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 10px;
+    color: #000000;
+    margin: 0;
+}
+
+.basic_font,
+.premium_font2 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+    margin: 0;
+}
+
+.jumbotron_bg {
+    background: #FFFFFF;
+    border: 1.5px solid #C4C4C4;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+}
+
+.starter_font {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+    margin: 0;
+}
+
+.with_font {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #000000;
+    margin: 0;
+}
+
+
+
+.price_font {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 42px;
+    color: #000000;
+    margin: 0;
+}
+
+.month_font {
+    font-family: 'Poppins';
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    margin: 0;
+}
+
+.text_font {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 16px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #808080;
+    margin: 0;
+}
+
+.btn-border {
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.btn_primary{
+    background: #B00000 !important;
+    border: none;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin: 0;
+    border-radius: 8px;
+    max-width: 208px;
+height: 48px;
+}
+.connect_font {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    margin: 0;
+}
+
+
+
+.real_font {
+    font-family: 'Inter';
+    font-weight: 800;
+    font-size: 48px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    max-width: 500px;
+    padding-top: 85px;
+}
+
+.opacity {
+    opacity: 0.3;
+}
+
+.get_font,
+.lemon_font {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 18px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    margin: 0;
+}
+
+.properties {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 20px rgba(41, 41, 42, 0.07);
+    border-radius: 8px;
+}
+
+.lorem_font {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #000000;
+    margin: 0;
+}
+
+
+
+.floyd_font,
+.jane_font,
+.kristin_font {
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 18px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #18191F;
+    margin: 0;
+}
+
+.vice_font,
+.ceo_font,
+.co_font {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 14px;
+    font-feature-settings: 'salt' on, 'liga' off;
+    color: #969BAB;
+    margin: 0;
+}
+
+
+
+.bg_color {
+    background: #F7FAFE !important;
+    border-radius: 16px;
+}
+
+.index {
+    max-width: 780px;
+    z-index: 1;
+}
+
+
+footer{
+    background-color: #B00000;
+    
+}
+.f_tagline {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    color: #E6E6E6;
+    margin: 0;
+}
+
+.f_head{
+    font-family: 'Inter';
+font-weight: 700;
+font-size: 16px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #FFFFFF;
+margin: 0;
+}
+.f_text{
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 16px;
+color: #E6E6E6;
+margin: 0;
+}
+
+.nav-item .active{
+    color: #B00000;
+    border-bottom: 2px solid #B00000;
+}
+.li_light:hover{
+    text-decoration: none;
+    color: #B00000;
+}
+
+
+.basic_font:hover{
+    text-decoration: none;
+    color: #B00000;
+}
+.padding_premium:hover{
+    text-decoration: none;
+    color: #B00000;
+}
+
+
+
+/* toggler Switch */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #B00000;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #ccc;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #ccc;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  @media (min-width: 1200px){
+      /* above */
+  }
+
+  @media (min-width:992px) {
+      /* above */
+      .plan_button{
+        width: 235px;
+        height: 50px;
+      }
+      .blaing_w {
+        max-width: 450px;
+    }
+    .connect_w {
+        max-width: 450px;
+    }
+    .w_300{
+        max-width: 300px;
+    }
+    .pad_r{
+        padding-right: 150px;
+    }
+    .pad{
+        padding: 0 150px 0 150px;
+    }
+    .padding_premium{
+        padding: 0px 130px;
+    }
+
+    .margin{
+        margin-top: 240px;
+    }
+    .website_font {
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 54px;
+        text-align: center;
+        color: #2E2E2E;
+        margin: 0;
+    }
+    .w-250 {
+        max-width: 250px;
+    }
+
+    .lorem_w1 {
+        max-width: 245px;
+    }
+    
+    .lorem_w2 {
+        max-width: 349px;
+    }
+    .w_450 {
+        max-width: 445px;
+    }
+    
+    .w_260 {
+        max-width: 260px;
+    }
+    
+    .w_350 {
+        max-width: 350px;
+    }
+
+
+  }
+
+  @media (min-width : 992px) and (max-width : 1192px) {
+      /* LG */
+      .padding-top-icons{
+          padding-top: 130px !important;
+      }
+    
+    
+  }
+
+  @media (min-width:768px) and (max-width:991px) {
+      /* Medium */
+      .border{
+          display: none;
+      }
+      .navbar_img{
+          display: none;
+      }
+      .navbar_icon{
+          display: none;
+      }
+    
+    .pad{
+        padding: 0 100px 0 100px;
+    }
+    .padding_premium{
+        padding: 0px 100px;
+    }
+    .website_font {
+        font-size: 29px;
+    }
+
+    .margin{
+        margin-top: 140px;
+    }
+    .p-t-website{
+        padding-top: 50px !important;
+    }
+    .lorem_font, .lemon_font {
+        font-size: 13px;
+    }
+    .jumbotron-parent{
+        display: flex;
+        justify-content: center;
+    }
+    .p-l-r{
+        padding: 0px 50px !important;
+    }
+    
+  }
+  @media (min-width:576px) and (max-width:767px){
+      /* Small */
+      .border{
+        display: none;
+    }
+    .navbar_img{
+        display: none;
+    }
+    .navbar_icon{
+        display: none;
+    }
+
+    .p-b-cpanel{
+        padding-bottom: 50px;
+    }
+    .p-b-green{
+        padding-bottom: 40px;
+    }
+
+    .pad{
+        padding: 0 50px;
+    }
+    .padding_premium{
+        padding: 0px 50px;
+    }
+
+    .real_font {
+        font-size: 30px;
+    }
+
+    .website_font {
+        font-size: 20px;
+        padding-top: 40px !important;
+    }
+
+    .margin{
+        margin-top: 100px;
+    }
+    .btn_primary{
+        font-size: 10px;
+    max-width: 200px;
+height: 40px;
+}
+.jumbotron-parent{
+    display: flex;
+    justify-content: center;
+}
+.true_font, .ready_font, .serve_font{
+    font-size: 35px;
+}
+.premium_font{
+    font-size: 40px;
+}
+.lemon_font{
+    font-size: 16px;
+}
+.basic_font, .premium_font2{
+    font-size: 25px;
+}
+    
+  }
+   @media (max-width : 575px) {
+       /* Below */
+       .border{
+        display: none;
+    }
+    .navbar_img{
+        display: none;
+    }
+    .navbar_icon{
+        display: none;
+    }
+
+    .p-b-cpanel{
+        padding-bottom: 50px;
+    }
+    .p-b-green{
+        padding-bottom: 40px;
+    }
+    .pad{
+        padding: 0 30px;
+    }
+    .padding_premium{
+        padding: 0px 30px;
+    }
+    .margin{
+        margin-top: 100px !important;
+    }
+    .website_font {
+        font-size: 15px;
+    }
+    .btn_primary{
+        font-size: 8px;
+    max-width: 180px;
+height: 35px;
+   }
+   .real_font {
+    font-size: 27px;
+}
+.jumbotron-parent{
+    display: flex;
+    justify-content: center;
+}
+.true_font, .ready_font, .serve_font{
+    font-size: 35px;
+}
+.premium_font{
+    font-size: 40px;
+}
+}
+@media (max-width : 480px){
+    /* below */
+    .border{
+        display: none;
+    }
+    .navbar_img{
+        display: none;
+    }
+    .navbar_icon{
+        display: none;
+    }
+
+    .p-b-cpanel{
+        padding-bottom: 50px;
+    }
+    .p-b-green{
+        padding-bottom: 40px;
+    }
+    .pad{
+        padding: 0 10px;
+    }
+    .padding_premium{
+        padding: 0px 10px;
+    }
+    .margin{
+        margin-top: 69px !important;
+    }
+    .website_font {
+        font-size: 15px;
+    }
+    .btn_primary{
+        font-size: 8px;
+    max-width: 150px;
+height: 25px;
+   }
+   .real_font {
+    font-size: 25px;
+}
+.monthly_font,
+.yearly_font {
+    font-size: 18px;
+}
+.p-t-website{
+    padding-top: 20px !important;
+    max-width: 200px !important;
+}
+.whatsapp_w{
+width: 20px;
+}
+.serve_font {
+    font-size: 30px; 
+}
+.premium_font, .true_font{
+    font-size: 30px;
+}
+.true_font, .ready_font, .serve_font{
+    font-size: 25px;
+}
+.choose_font{
+    font-size: 20px;
+}
+.pad{
+    padding: 0 25px;
+    font-size: 20px;
+
+}
+.padding_premium{
+    padding: 0px 25px;
+    font-size: 20px;
+}
+.monthly_font, .yearly_font{
+    font-size: 15px;
+}
+.lorem_font{
+    font-size: 14px;
+}
+.p-b-lite{
+    padding-bottom: 30px !important;
+}
+}
